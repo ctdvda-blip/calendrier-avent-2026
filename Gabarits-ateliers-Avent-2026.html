@@ -1,0 +1,34 @@
+<!doctype html><html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gabarits des ateliers de l’Avent 2026</title><style>
+*{box-sizing:border-box}body{margin:0;background:#e8e6df;color:#203b30;font:14px system-ui}header{padding:20px;background:#fffdf8;text-align:center}button{padding:12px 18px;background:#234f43;border:0;border-radius:6px;color:white;font:inherit;cursor:pointer}h1{font:28px Georgia;margin:0 0 10px}.version{font-size:11px}section{width:210mm;height:297mm;background:white;margin:20px auto;padding:5mm;box-shadow:0 4px 20px #0002;break-after:page}svg{width:200mm;height:287mm;display:block}svg text{font:3px system-ui;fill:#111}svg .small{font-size:2.5px}svg .cut{fill:none;stroke:black;stroke-width:.35}svg .fold{fill:none;stroke:#777;stroke-width:.25;stroke-dasharray:2 1.5}@page{size:A4 portrait;margin:0}@media print{body{background:white}header{display:none}section{margin:0;box-shadow:none}section:last-child{break-after:auto}}@media screen and (max-width:850px){section{zoom:.45}}
+</style><header><h1>Mes gabarits de Noël</h1><p>Imprime les trois feuilles A4 en <b>recto seul</b>, taille réelle 100 %, une page par feuille.<br>Traits pleins : découper. Pointillés : plier. Avec l’aide d’un adulte.</p><button onclick="window.print()">Imprimer les gabarits</button><p class="version">v0.6-261111 · Le carnet n’est pas à découper.</p></header><main id="pages"></main><script>
+const NS='http://www.w3.org/2000/svg';
+function el(tag,attrs={},text){const n=document.createElementNS(NS,tag);for(const[k,v]of Object.entries(attrs))n.setAttribute(k,v);if(text)n.textContent=text;return n;}
+function sheet(title){const s=document.createElement('section'),svg=el('svg',{viewBox:'0 0 200 287',xmlns:NS});s.append(svg);document.querySelector('#pages').append(s);svg.append(el('text',{x:5,y:7,style:'font-size:5px;font-weight:bold'},title));svg.append(el('text',{x:5,y:282,class:'small'},'AVENT 2026 · v0.6-261111 · Découper au trait plein, plier au pointillé · Recto seul'));return svg;}
+function rect(svg,x,y,w,h,cls='cut'){svg.append(el('rect',{x,y,width:w,height:h,class:cls}));}
+function line(svg,x1,y1,x2,y2,cls='cut'){svg.append(el('line',{x1,y1,x2,y2,class:cls}));}
+function star(svg,cx,cy,r=8,slot){let points=[];for(let i=0;i<10;i++){const a=-Math.PI/2+i*Math.PI/5,q=i%2?r*.43:r;points.push((cx+q*Math.cos(a))+','+(cy+q*Math.sin(a)));}svg.append(el('polygon',{points:points.join(' '),class:'cut'}));if(slot==='top')line(svg,cx,cy-r,cx,cy);if(slot==='bottom')line(svg,cx,cy,cx,cy+r*.43);}
+let a=sheet('5–6 décembre · Photophores et couronne');
+a.append(el('text',{x:5,y:16},'Deux bandes à colorier · Ajuste autour du pot ; utilise une bougie LED.'));
+for(const y of [21,78]){rect(a,5,y,190,45);for(let x=20;x<190;x+=30)star(a,x,y+25,9);}
+a.append(el('text',{x:5,y:154},'Quatre bougies et leurs flammes · Ajoute une seule bougie par dimanche.'));
+for(let i=0;i<4;i++){const x=12+i*47;rect(a,x,155,28,50);rect(a,x,205,28,8);line(a,x,205,x+28,205,'fold');a.append(el('path',{d:`M${x+14} 149 Q${x+2} 141 ${x+14} 128 Q${x+26} 141 ${x+14} 149Z`,class:'cut'}));a.append(el('text',{x:x+13,y:181,'text-anchor':'middle'},String(i+1)));}
+a.append(el('text',{x:5,y:227},'Feuilles pour décorer l’anneau en carton :'));
+for(let i=0;i<8;i++){const x=12+(i%4)*46,y=235+Math.floor(i/4)*19;a.append(el('path',{d:`M${x} ${y+7} Q${x+17} ${y-6} ${x+34} ${y+7} Q${x+17} ${y+20} ${x} ${y+7}Z`,class:'cut'}));line(a,x+3,y+7,x+31,y+7,'fold');}
+a=sheet('12–13 décembre · Ange et boule en 3D');
+a.append(el('text',{x:5,y:16},'Ange : robe, ailes, tête et auréole. Plie les rectangles en accordéon.'));
+rect(a,5,22,110,65);rect(a,120,22,75,45);
+for(let x=10;x<115;x+=5)line(a,x,22,x,87,'fold');for(let x=125;x<195;x+=5)line(a,x,22,x,67,'fold');
+a.append(el('circle',{cx:145,cy:91,r:13,class:'cut'}),el('ellipse',{cx:180,cy:86,rx:14,ry:5,class:'cut'}));
+a.append(el('text',{x:5,y:111},'Boule 3D : colorie les six disques, plie puis colle leurs moitiés dos à dos.'));
+for(let i=0;i<6;i++){const x=35+(i%3)*65,y=149+Math.floor(i/3)*66;a.append(el('circle',{cx:x,cy:y,r:27.5,class:'cut'}));line(a,x,y-27.5,x,y+27.5,'fold');star(a,x,y,10);}
+a.append(el('text',{x:5,y:264,class:'small'},'Glisse une ficelle au milieu avant de coller le dernier demi-disque.'));
+a=sheet('19–20 décembre · Carte pop-up et étoile');
+a.append(el('text',{x:5,y:16},'Carte : découpe le rectangle ; les deux petites fentes créent la languette.'));
+rect(a,5,22,130,95);line(a,70,22,70,117,'fold');line(a,55,58,85,58);line(a,55,77,85,77);line(a,55,58,55,77,'fold');line(a,85,58,85,77,'fold');
+a.append(el('text',{x:12,y:109,class:'small'},'Plie, pousse la languette et colle le sapin dessus.'));
+a.append(el('path',{d:'M165 26 L148 47 L155 47 L143 65 L151 65 L139 87 L160 87 L160 99 L170 99 L170 87 L191 87 L179 65 L187 65 L175 47 L182 47Z',class:'cut'}));star(a,165,23,5);
+a.append(el('text',{x:5,y:133},'Étoile 3D : découpe les deux étoiles et les fentes, puis emboîte-les.'));
+star(a,53,193,44,'top');star(a,149,193,44,'bottom');
+a.append(el('text',{x:5,y:252,class:'small'},'Colle l’intérieur pop-up dans une feuille cartonnée pliée en deux.'));
+a.append(el('text',{x:5,y:259,class:'small'},'Suspends l’étoile au-dessus de la crèche le 20 décembre.'));
+</script></html>
