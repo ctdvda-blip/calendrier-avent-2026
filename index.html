@@ -3802,7 +3802,7 @@ function setPresentation(value,remember=true){
  if(remember)try{localStorage.setItem(PRESENTATION_KEY,theme);}catch{}
 }
 let initialPresentation='classic';
-try{initialPresentation=JSON.parse($('#book-data').textContent).presentation||localStorage.getItem(PRESENTATION_KEY)||'classic';}catch{}
+try{initialPresentation=localStorage.getItem(PRESENTATION_KEY)||JSON.parse($('#book-data').textContent).presentation||'classic';}catch{}
 setPresentation(initialPresentation,false);
 $('#presentation').onchange=e=>setPresentation(e.target.value);
 const renderWithPresentation=render;render=function(){renderWithPresentation();$('#presentation').disabled=editing;};
