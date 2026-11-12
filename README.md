@@ -1,10 +1,12 @@
-# Mon calendrier de l’Avent 2026 — v0.7-261111
+# Mon calendrier de l’Avent 2026 — v0.8-261112
 
 [Ouvrir l’application](https://ctdvda-blip.github.io/calendrier-avent-2026/)
 
 Un carnet pour les enfants de 5 à 10 ans, du 1er au 25 décembre 2026 : lectures bibliques, coloriages, prières et activités.
 
 Trois onglets permettent de prévisualiser **le Livret**, **la Planche A4** et **les Gabarits des ateliers** dans la même page avant impression. La planche et les gabarits disposent d’un zoom ; les flèches parcourent les trois feuilles des gabarits. Chaque document a sa commande d’impression : seize faces A4 pour le livret, une page pour la planche, trois pour les gabarits. Le zoom reste limité à la lecture.
+
+La liste **Présentation** permet de choisir **Actuelle** ou **Enfantine**. Cette dernière ajoute des titres plus ronds, des cadres et des étoiles aux couleurs de Noël. Les coloriages restent en noir et blanc et les textes sont identiques. Le choix est conservé dans le navigateur et les exports HTML ; les impressions et le téléchargement de la planche suivent la présentation sélectionnée. Le PDF enfantin est aussi disponible dans Calendrier-Avent-2026-condense-A4-enfant.pdf.
 
 - **index.html** : application autonome, lecture, édition locale, export HTML et impression du livret A6 (64 pages sur huit A4 recto verso).
 - **Calendrier-Avent-2026-condense-A4.pdf** : une seule page A4 avec 25 vignettes à colorier et un QR code vers l’application. Aussi téléchargeable depuis l’application, y compris hors connexion après téléchargement du HTML.
