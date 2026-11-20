@@ -1,8 +1,12 @@
-# Mon calendrier de l’Avent 2026 — v0.9-261112
+# Mon calendrier de l’Avent 2026 — v0.10-261120
 
 [Ouvrir l’application](https://ctdvda-blip.github.io/calendrier-avent-2026/)
 
 Un carnet pour les enfants de 5 à 10 ans, du 1er au 25 décembre 2026 : lectures bibliques, coloriages, prières et activités.
+
+**Mon Avent à colorier propose par défaut une A4 recto verso**, avec13 grandes vignettes au recto et12au verso. Le choix Format garde aussi la planche sur une seule face. Aperçu, impression et téléchargement suivent le format et la présentation sélectionnés. Imprimer en A4 portrait, taille réelle100%, **recto verso bord long** pour le mode deux faces. Les PDF ...-recto-verso.pdf et ...-recto-verso-enfant.pdf incluent cette préférence. Les illustrations restent en noir et blanc.
+
+Dates vérifiées : l’Avent2026 commence le29novembre, puis dimanches6,13,20décembre ([AELF novembre](https://www.aelf.org/calendrier/romain/2026/11), [AELF décembre](https://www.aelf.org/calendrier/romain/2026/12)). Les25vignettes couvrent le1erau25décembre.
 
 Trois onglets permettent de prévisualiser **le Livret**, **la Planche A4** et **les Ateliers et gabarits** avant impression. Le livret compact propose une page par jour (texte biblique exact, coloriage et quatre QR en bas), et une double page en début de semaine regroupant les prières et gestes de crèche, avec symboles et couleurs par jour. Ses **40 pages A6 occupent cinq A4 recto verso** (dix faces).
 
