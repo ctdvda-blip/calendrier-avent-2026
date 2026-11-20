@@ -16,7 +16,7 @@ Le coin des artistes présente deux ateliers par semaine : couronne, photophores
 
 La liste **Présentation** permet de choisir **Actuelle** ou **Enfantine**. Cette dernière ajoute des titres plus ronds, des cadres et des étoiles aux couleurs de Noël. Les coloriages restent en noir et blanc et les textes sont identiques. Le choix est conservé dans le navigateur et les exports HTML ; les impressions et le téléchargement de la planche suivent la présentation sélectionnée. Le PDF enfantin est aussi disponible dans Calendrier-Avent-2026-condense-A4-enfant.pdf.
 
-- **index.html** : application autonome, lecture, édition locale, export HTML et impression du livret A6 (40 pages sur cinq A4 recto verso).
+- **index.html** : application autonome, lecture, édition locale, export HTML et impression du livret A6 (48 pages sur six A4 recto verso).
 - **Calendrier-Avent-2026-condense-A4.pdf** : une seule page A4 avec27vignettes datées, citations et QR vers l’application. Aussi téléchargeable depuis l’application, y compris hors connexion après téléchargement du HTML.
 - **Gabarits-ateliers-Avent-2026.html** : trois feuilles A4 d’activités.
 
@@ -31,3 +31,4 @@ Les sauvegardes des éditions v0.4–v0.8 restent intactes et exportables si ell
 Illustrations originales générées pour ce projet ; aucune affiliation avec un éditeur. Bibliothèque qrcode-generator sous licence MIT, mention conservée dans le HTML et dans THIRD_PARTY_LICENSES.txt. Les sources JavaScript, styles et images sont inclus dans le HTML ; les sources de composition sont aussi conservées dans le projet local. Aucun document de travail personnel n’est publié.
 
 Les quatre rubriques quotidiennes des pages de prière sont séparées par un retour à la ligne et un petit espace, avec deux journées au maximum par page. Le25décembre garde sa vignette avec un dessin différent du24 (bergers sous l’étoile), toujours à colorier. Les anciennes personnalisations40pages restent conservées séparément et exportables ; la nouvelle pagination dispose de sa propre sauvegarde.
+
