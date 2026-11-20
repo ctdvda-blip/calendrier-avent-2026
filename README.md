@@ -1,12 +1,14 @@
-# Mon calendrier de l’Avent 2026 — v0.10-261120
+# Mon calendrier de l’Avent 2026 — v0.11-261120
 
 [Ouvrir l’application](https://ctdvda-blip.github.io/calendrier-avent-2026/)
 
-Un carnet pour les enfants de 5 à 10 ans, du 1er au 25 décembre 2026 : lectures bibliques, coloriages, prières et activités.
+Un carnet pour les enfants de 5 à 10 ans : deux lectures d’ouverture les29/30novembre2026, puis les25journées de décembre, avec Bible, coloriages, prières et activités.
 
-**Mon Avent à colorier propose par défaut une A4 recto verso**, avec13 grandes vignettes au recto et12au verso. Le choix Format garde aussi la planche sur une seule face. Aperçu, impression et téléchargement suivent le format et la présentation sélectionnés. Imprimer en A4 portrait, taille réelle100%, **recto verso bord long** pour le mode deux faces. Les PDF ...-recto-verso.pdf et ...-recto-verso-enfant.pdf incluent cette préférence. Les illustrations restent en noir et blanc.
+**Mon Avent à colorier commence le29novembre et finit le25décembre :27vignettes datées**, avec une courte citation biblique exacte et sa référence sous chaque dessin. Les extraits de décembre correspondent aux lectures du même jour ; les deux lectures d’ouverture figurent dans l’introduction. La traduction reste Louis Segond1910, sans reformulation.
 
-Dates vérifiées : l’Avent2026 commence le29novembre, puis dimanches6,13,20décembre ([AELF novembre](https://www.aelf.org/calendrier/romain/2026/11), [AELF décembre](https://www.aelf.org/calendrier/romain/2026/12)). Les25vignettes couvrent le1erau25décembre.
+Le format par défaut est une **A4 recto verso**, avec13 grandes vignettes au recto et14au verso. Le choix Format garde aussi la planche sur une seule face. Aperçu, impression et téléchargement suivent le format et la présentation sélectionnés. Imprimer en A4 portrait, taille réelle100%, **recto verso bord long** pour le mode deux faces. Les PDF ...-recto-verso.pdf et ...-recto-verso-enfant.pdf incluent cette préférence. Les illustrations restent en noir et blanc.
+
+Dates vérifiées : l’Avent2026 commence le29novembre, puis dimanches6,13,20décembre ([AELF novembre](https://www.aelf.org/calendrier/romain/2026/11), [AELF décembre](https://www.aelf.org/calendrier/romain/2026/12)). Les27vignettes couvrent le29novembre au25décembre.
 
 Trois onglets permettent de prévisualiser **le Livret**, **la Planche A4** et **les Ateliers et gabarits** avant impression. Le livret compact propose une page par jour (texte biblique exact, coloriage et quatre QR en bas), et une double page en début de semaine regroupant les prières et gestes de crèche, avec symboles et couleurs par jour. Ses **40 pages A6 occupent cinq A4 recto verso** (dix faces).
 
@@ -15,7 +17,7 @@ Le coin des artistes présente deux ateliers par semaine : couronne, photophores
 La liste **Présentation** permet de choisir **Actuelle** ou **Enfantine**. Cette dernière ajoute des titres plus ronds, des cadres et des étoiles aux couleurs de Noël. Les coloriages restent en noir et blanc et les textes sont identiques. Le choix est conservé dans le navigateur et les exports HTML ; les impressions et le téléchargement de la planche suivent la présentation sélectionnée. Le PDF enfantin est aussi disponible dans Calendrier-Avent-2026-condense-A4-enfant.pdf.
 
 - **index.html** : application autonome, lecture, édition locale, export HTML et impression du livret A6 (40 pages sur cinq A4 recto verso).
-- **Calendrier-Avent-2026-condense-A4.pdf** : une seule page A4 avec 25 vignettes à colorier et un QR code vers l’application. Aussi téléchargeable depuis l’application, y compris hors connexion après téléchargement du HTML.
+- **Calendrier-Avent-2026-condense-A4.pdf** : une seule page A4 avec27vignettes datées, citations et QR vers l’application. Aussi téléchargeable depuis l’application, y compris hors connexion après téléchargement du HTML.
 - **Gabarits-ateliers-Avent-2026.html** : trois feuilles A4 d’activités.
 
 Pour la planche : A4 portrait, recto seul, taille réelle. Pour le livret : consulter son mode d’emploi (imposition déjà réalisée).
