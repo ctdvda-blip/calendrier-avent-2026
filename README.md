@@ -1,4 +1,4 @@
-# Mon calendrier de l’Avent 2026 — v0.11-261120
+# Mon calendrier de l’Avent 2026 — v0.12-261120
 
 [Ouvrir l’application](https://ctdvda-blip.github.io/calendrier-avent-2026/)
 
@@ -10,7 +10,7 @@ Le format par défaut est une **A4 recto verso**, avec13 grandes vignettes au re
 
 Dates vérifiées : l’Avent2026 commence le29novembre, puis dimanches6,13,20décembre ([AELF novembre](https://www.aelf.org/calendrier/romain/2026/11), [AELF décembre](https://www.aelf.org/calendrier/romain/2026/12)). Les27vignettes couvrent le29novembre au25décembre.
 
-Trois onglets permettent de prévisualiser **le Livret**, **la Planche A4** et **les Ateliers et gabarits** avant impression. Le livret compact propose une page par jour (texte biblique exact, coloriage et quatre QR en bas), et une double page en début de semaine regroupant les prières et gestes de crèche, avec symboles et couleurs par jour. Ses **40 pages A6 occupent cinq A4 recto verso** (dix faces).
+Trois onglets permettent de prévisualiser **le Livret**, **la Planche A4** et **les Ateliers et gabarits** avant impression. Le livret compact propose une page par jour (texte biblique exact, coloriage et quatre QR en bas), et quatre pages en début de semaine regroupant les prières et gestes de crèche, avec symboles et couleurs par jour. Ses **48 pages A6 occupent six A4 recto verso** (douze faces).
 
 Le coin des artistes présente deux ateliers par semaine : couronne, photophores, ange, boule, étoile, carte pop-up, guirlande et rosaces. Les huit tutoriels sont référencés par des liens et QR. Ils se réalisent sans patron à imprimer. Les **trois gabarits imprimables sont conservés**, en complément facultatif, avec aperçu et zoom. Dans le troisième onglet, choisir « Ateliers sans impression » ou « Gabarits facultatifs ». Les huit fiches peuvent aussi être imprimées sur quatre A4. Le zoom reste limité à la lecture.
 
@@ -29,3 +29,5 @@ Les lectures reproduisent 43 versets entiers de Louis Segond 1910 (domaine publi
 Les sauvegardes des éditions v0.4–v0.8 restent intactes et exportables si elles existent dans le navigateur. Cette nouvelle pagination utilise une sauvegarde indépendante pour préserver les personnalisations anciennes. La publication n’envoie aucune modification personnelle du navigateur vers GitHub.
 
 Illustrations originales générées pour ce projet ; aucune affiliation avec un éditeur. Bibliothèque qrcode-generator sous licence MIT, mention conservée dans le HTML et dans THIRD_PARTY_LICENSES.txt. Les sources JavaScript, styles et images sont inclus dans le HTML ; les sources de composition sont aussi conservées dans le projet local. Aucun document de travail personnel n’est publié.
+
+Les quatre rubriques quotidiennes des pages de prière sont séparées par un retour à la ligne et un petit espace, avec deux journées au maximum par page. Le25décembre garde sa vignette avec un dessin différent du24 (bergers sous l’étoile), toujours à colorier. Les anciennes personnalisations40pages restent conservées séparément et exportables ; la nouvelle pagination dispose de sa propre sauvegarde.
