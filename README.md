@@ -1,6 +1,10 @@
-# Mon calendrier de l’Avent 2026 — v0.13-261120
+# Mon calendrier de l’Avent 2026 — v0.14-261121
 
 [Ouvrir l’application](https://ctdvda-blip.github.io/calendrier-avent-2026/)
+
+**À la recherche de l’étoile du berger** : une petite étoile filante cachée dans chaque illustration et chaque vignette, avec une invitation à suivre le chemin vers la Nativité. Le jeu est expliqué dès l’accueil et dans l’introduction du carnet.
+
+Les coloriages alternent entre huit dessins simples (5–6ans), huit intermédiaires (7–8ans) et neuf détaillés (9–10ans). Les pages varient entre album illustré, bulles, BD, carte et carnet ; Jacob, la mer Rouge et la Nativité disposent de BD originales. Tous les dessins restent en noir et blanc et les versets sont reproduits sans reformulation.
 
 Un carnet pour les enfants de 5 à 10 ans : deux lectures d’ouverture les29/30novembre2026, puis les25journées de décembre, avec Bible, coloriages, prières et activités.
 
