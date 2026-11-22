@@ -1,4 +1,4 @@
-# Mon calendrier de l’Avent 2026 — v0.14-261121
+# Mon calendrier de l’Avent 2026 — v0.15-261122
 
 [Ouvrir l’application](https://ctdvda-blip.github.io/calendrier-avent-2026/)
 
@@ -39,3 +39,11 @@ Les quatre rubriques quotidiennes des pages de prière sont séparées par un re
 
 Quatre QR d’écoutes seulement, au début du carnet (page3) : Bible, musique, chants, contes. Chaque liste contient25propositions datées. Aucun QR d’écoute sur les pages quotidiennes ; leurs liens restent cliquables. Les QR des tutoriels des ateliers sont conservés.
 
+
+## Parcours du 29 novembre au 24 décembre — v0.15-261122
+
+Demandes utilisateur du 22 novembre 2026 : titre « Notre chemin vers Noël » sur une seule ligne à la page 2 ; suppression de son encadré ; livret et planche du premier dimanche de l’Avent (29 novembre) au 24 décembre inclus. Le parcours comporte 26 journées. Les 29 et 30 novembre ont désormais chacun une page illustrée et leur verset exact déjà référencé dans la version précédente. Le 25 décembre est retiré du parcours et des listes intégrées. La page 2 conserve le texte du jeu, sans fond ni bordure.
+
+Livret : 52 pages A6, 14 faces sur 7 feuilles A4 recto verso, avec une demi-feuille inutilisée sur la dernière A4. Trois espaces personnels de dessin complètent la pagination. Sommaire hebdomadaire : pages 4, 16, 28 et 40. Planche : 26 vignettes, 13 sur chaque face ; variante recto seul conservée. Ateliers, gabarits, quatre QR d’écoutes initiaux, coloriages noir et blanc et jeu de l’étoile conservés.
+
+Sauvegardes : nouvelle structure compact-v15 et clé avent-2026-livret-compact-v15. Les anciennes éditions compact-v12 restent intactes et exportables séparément ; elles ne sont pas appliquées par numéro de page à la nouvelle pagination. Archive complète de v0.14 dans Anciens fichiers/v0.14-261121. Les nouvelles écoutes de novembre sont des recherches proposées, pas des enregistrements vérifiés. Les playlists YouTube externes restent incomplètes et leur mise à jour doit suivre la nouvelle période, sans présenter leurs anciens titres comme déjà modifiés. Durée : non mesurée.
