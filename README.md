@@ -128,3 +128,7 @@ Le premier paragraphe « Comme les bergers… » reprend la police et la taille 
 ## Page 2 : espace entre paragraphes — v0.29-261122
 
 Marge entre paragraphes portée à 6 px ; espacement des listes conservé.
+
+## Page 2 : pictogrammes de rubrique — v0.30-261122
+
+Les tirets des deux listes sont remplacés par des pictogrammes (prière, crèche, ciseaux, Bible, casque, chant, notes).
