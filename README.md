@@ -116,3 +116,7 @@ Le titre reste en haut et le cadre des quatre QR est centré verticalement dans 
 ## Page 2 : texte justifié — v0.26-261122
 
 Les paragraphes et les items des listes sont justifiés avec césure ; titres et table des matières conservent leur alignement.
+
+## Page 2 : mise à jour d’après la capture — v0.27-261122
+
+Texte et libellé de section synchronisés sur la capture utilisateur ; justification et liens du sommaire conservés.
