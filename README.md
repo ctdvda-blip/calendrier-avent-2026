@@ -72,3 +72,5 @@ Sauvegardes : nouvelle structure compact-v15 et clé avent-2026-livret-compact-v
 Version0.18 : les deux titres demandés sont « En chemin vers Noël » (page2) et « Les playlistes audios » (page3). Sauvegarde locale par navigateur ; le bouton Modifier ne publie pas les changements sur GitHub.
 
 Validation intermédiaire v0.19 : page2-maquette.cjs et captures classique/enfantine inspectés, aucun débordement. Publication en cours.
+
+Publicationv0.19 vérifiée par HTTP200, DOM des pages2/3 et capture locale ; déploiement45049029810 réussi.
