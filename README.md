@@ -112,3 +112,7 @@ Validation locale v0.24 : consigne retirée, encadré 4QR conservé, les quatre 
 ## Page 3 : recentrage du cadre et des QR — v0.25-261122
 
 Le titre reste en haut et le cadre des quatre QR est centré verticalement dans l’espace restant. Les QR gardent leur taille. Origine : demande du 22 novembre 2026.
+
+## Page 2 : texte justifié — v0.26-261122
+
+Les paragraphes et les items des listes sont justifiés avec césure ; titres et table des matières conservent leur alignement.
