@@ -120,3 +120,7 @@ Les paragraphes et les items des listes sont justifiés avec césure ; titres et
 ## Page 2 : mise à jour d’après la capture — v0.27-261122
 
 Texte et libellé de section synchronisés sur la capture utilisateur ; justification et liens du sommaire conservés.
+
+## Page 2 : police du texte du jeu — v0.28-261122
+
+Le premier paragraphe « Comme les bergers… » reprend la police et la taille du texte de bienvenue.
