@@ -168,3 +168,7 @@ Chaque journée comprend une « Prière du jour » liée au texte biblique, une 
 
 ## Ordre des rubriques — v0.39-261122
 Sur les doubles pages hebdomadaires, chaque journée commence par « La crèche », puis « Prière du jour » et « Participation ».
+
+
+## Icônes partagées — v0.40-261122
+La page 2 et les rubriques du livret utilisent une même bibliothèque SVG pour la prière, la crèche, les ateliers, la Bible, les contes, les chants et la musique. Les pictogrammes audio apparaissent aussi sur les pages quotidiennes.
