@@ -1,4 +1,9 @@
-# Mon calendrier de l’Avent 2026 — v0.21-261122
+# Mon calendrier de l’Avent 2026 — v0.22-261122
+
+## Libellé de la rubrique Chants — v0.22-261122
+
+Origine : demande utilisateur du 22 novembre 2026 : remplacer « Chants » par « Chants de Noël ». Libellé partagé modifié pour la page3, la fenêtre des écoutes et chaque proposition audio ; identifiant chants, destination et QR code conservés. Archive v0.21 avant le changement. Durée non mesurée.
+
 
 ## Libellé de la rubrique audio Musique — v0.21-261122
 
@@ -87,3 +92,5 @@ Validation intermédiaire v0.19 : page2-maquette.cjs et captures classique/enfan
 Publicationv0.19 vérifiée par HTTP200, DOM des pages2/3 et capture locale ; déploiement45049029810 réussi.
 
 Validation locale v0.21 : libellé musique page3 et menu de sélection,26 entrées et4QR fonctionnels.
+
+Validation v0.22 : nouveau libellé Chants de Noël sur la page3 et dans l’entête des26 entrées, QR fonctionnels.
