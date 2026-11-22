@@ -140,3 +140,7 @@ Les textes « Comme les bergers… » et « Une petite étoile filante… » uti
 ## Page 2 : taille du dernier paragraphe du jeu — v0.32-261122
 
 La taille historique de 8 px a été remplacée par l’héritage explicite de la typographie du texte de bienvenue.
+
+## Page 2 : pictogramme de l’étoile filante — v0.33-261122
+
+Emoji 🌠 ajouté dans le paragraphe qui explique le jeu de recherche de l’étoile.
