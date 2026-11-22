@@ -1,4 +1,9 @@
-# Mon calendrier de l’Avent 2026 — v0.20-261122
+# Mon calendrier de l’Avent 2026 — v0.21-261122
+
+## Libellé de la rubrique audio Musique — v0.21-261122
+
+Origine : demande utilisateur du 22 novembre 2026 : remplacer « Musiques sans paroles » par « Extraits de musique classique ». Le libellé est remplacé dans AUDIO_CATEGORIES ; les pages, listes interactives, codes QR, impression et variantes lisent ce libellé partagé. Identifiant technique « musique », URL et quatre rubriques conservés. Archive v0.20 avant changement. Même contenu sauvegardé, pagination et liens préservés. Durée non mesurée.
+
 
 ## Réorganisation de la page3 — v0.20-261122
 
@@ -80,3 +85,5 @@ Version0.18 : les deux titres demandés sont « En chemin vers Noël » (page2) 
 Validation intermédiaire v0.19 : page2-maquette.cjs et captures classique/enfantine inspectés, aucun débordement. Publication en cours.
 
 Publicationv0.19 vérifiée par HTTP200, DOM des pages2/3 et capture locale ; déploiement45049029810 réussi.
+
+Validation locale v0.21 : libellé musique page3 et menu de sélection,26 entrées et4QR fonctionnels.
