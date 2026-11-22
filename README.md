@@ -1,4 +1,11 @@
-# Mon calendrier de l’Avent 2026 — v0.16-261122
+# Mon calendrier de l’Avent 2026 — v0.17-261122
+
+## Page 2 personnalisée et listes resserrées — v0.17-261122
+
+Origine : demande utilisateur du 22 novembre 2026, puis texte complet de sa page 2 fourni par réponse asynchrone. Texte intégré dans sources/introduction.html et incorporé par construire.py sous INTRODUCTION_HTML. Accueil « Bienvenue dans ton carnet de l’Avent ! », organisation hebdomadaire, sept éléments en listes à tirets, renvoi aux audios page3 et quatre entrées du sommaire conservés. Majuscules Bible/Noël et apostrophes normalisées. Le passage de jeu du copier-coller était dupliqué et sa première phrase tronquée : dédoublonné, fin rétablie selon la description précédemment validée « jusqu’à la Nativité ». Aucune suppression du jeu, des repères d’âge ou de la note sur les bougies LED.
+
+Espacements limités à la page 2, pour préserver l’aération demandée sur les autres pages : interligne1,22 ; listes1,20 ; marge3px sous les paragraphes,2px entre items et0 pour les paragraphes imbriqués dans les items ; lignes vides de l’éditeur réduites à4px. Les listes créées par l’utilisateur profitent de ces règles même si elles ont un ancien interligne en style inline. Corps d’origine10,5px ; titre23px sur une ligne. Même pagination52pages, mêmes26dates, styles et ateliers. Même clé/structurecompact-v15 : aucune sauvegarde personnelle écrasée. Une version personnelle déjà sauvegardée conserve son texte local, tandis que le texte fourni sert désormais à l’édition publique. Archivev0.16 créée avant modification. Durée non mesurée.
+
 
 ## Introduction de la page 2 — v0.16-261122
 
