@@ -1,4 +1,9 @@
-# Mon calendrier de l’Avent 2026 — v0.22-261122
+# Mon calendrier de l’Avent 2026 — v0.23-261122
+
+## Libellé de la rubrique Contes — v0.23-261122
+
+Origine : demande utilisateur du 22 novembre 2026 : remplacer « Contes à écouter » par « Contes audios ». Modifié dans la catégorie partagée, l’entrée de la carte et l’étiquette de chaque jour de la liste ; identifiant contes, QR et destination conservés. Archivev0.22 avant changement. Durée non mesurée.
+
 
 ## Libellé de la rubrique Chants — v0.22-261122
 
@@ -94,3 +99,5 @@ Publicationv0.19 vérifiée par HTTP200, DOM des pages2/3 et capture locale ; d�
 Validation locale v0.21 : libellé musique page3 et menu de sélection,26 entrées et4QR fonctionnels.
 
 Validation v0.22 : nouveau libellé Chants de Noël sur la page3 et dans l’entête des26 entrées, QR fonctionnels.
+
+Contrôle v0.23 : Contes audios sur la carte et l’entête des26 entrées,4QR actifs.
