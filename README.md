@@ -148,3 +148,7 @@ Emoji 🌠 ajouté dans le paragraphe qui explique le jeu de recherche de l’é
 ## Page 2 : symbole du jeu identique à l’étoile cachée — v0.34-261122
 
 Le symbole de la consigne est le même SVG noir et blanc à cinq branches et deux traînées que dans les illustrations.
+
+## Pages 4–5 : titre des prières et ateliers — v0.35-261122
+
+Le titre commun de la première double page hebdomadaire se lit sur les deux pages : « Prières et ateliers » puis « créatifs de la semaine ».
