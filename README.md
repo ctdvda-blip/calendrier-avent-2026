@@ -144,3 +144,7 @@ La taille historique de 8 px a été remplacée par l’héritage explicite de l
 ## Page 2 : pictogramme de l’étoile filante — v0.33-261122
 
 Emoji 🌠 ajouté dans le paragraphe qui explique le jeu de recherche de l’étoile.
+
+## Page 2 : symbole du jeu identique à l’étoile cachée — v0.34-261122
+
+Le symbole de la consigne est le même SVG noir et blanc à cinq branches et deux traînées que dans les illustrations.
