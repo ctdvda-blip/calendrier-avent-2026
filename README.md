@@ -156,3 +156,7 @@ Le titre commun de la première double page hebdomadaire se lit sur les deux pag
 ## Titres des semaines 2–4 et correction du titre page 3 — v0.36-261122
 
 Les doubles pages hebdomadaires des semaines 2 à 4 portent un titre commun réparti entre les pages. Page 3 : « Les playlists audios ».
+
+## Doubles pages hebdomadaires : retrait de l’item intention — v0.37-261122
+
+La ligne « Intention · Pardon · Merci » a été retirée des cartes hebdomadaires.
