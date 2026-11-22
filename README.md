@@ -132,3 +132,7 @@ Marge entre paragraphes portée à 6 px ; espacement des listes conservé.
 ## Page 2 : pictogrammes de rubrique — v0.30-261122
 
 Les tirets des deux listes sont remplacés par des pictogrammes (prière, crèche, ciseaux, Bible, casque, chant, notes).
+
+## Page 2 : police des paragraphes du jeu — v0.31-261122
+
+Les textes « Comme les bergers… » et « Une petite étoile filante… » utilisent la police et la taille du texte d’accueil.
