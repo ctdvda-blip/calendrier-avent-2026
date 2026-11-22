@@ -164,3 +164,7 @@ La ligne « Intention · Pardon · Merci » a été retirée des cartes hebdomad
 
 ## Prières et participations quotidiennes — v0.38-261122
 Chaque journée comprend une « Prière du jour » liée au texte biblique, une participation familiale parmi sept idées qui tournent selon le jour de la semaine, et la rubrique « Notre crèche ». Les propositions d’allumage des bougies restent dans la rubrique crèche.
+
+
+## Ordre des rubriques — v0.39-261122
+Sur les doubles pages hebdomadaires, chaque journée commence par « La crèche », puis « Prière du jour » et « Participation ».
