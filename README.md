@@ -1,4 +1,9 @@
-# Mon calendrier de l’Avent 2026 — v0.17-261122
+# Mon calendrier de l’Avent 2026 — v0.18-261122
+
+## Titre de la page 2 — v0.18-261122
+
+Origine : demande utilisateur du 22 novembre 2026, remplacer « Notre chemin vers Noël » par « En chemin vers Noël ». Modification ciblée du h2 dans sources/introduction.html. Le remplacement exact est aussi appliqué au chargement des pages personnalisées et des copies HTML exportées : seul cet ancien titre est remplacé, sans réécrire le reste de leur contenu ni effacer le stockage. Les autres titres personnels restent inchangés. Même clé compact-v15, mêmes52pages et26dates, mêmes espacements et listes de la page2. Archive préalable v0.17. Durée non mesurée.
+
 
 ## Page 2 personnalisée et listes resserrées — v0.17-261122
 
@@ -58,3 +63,5 @@ Demandes utilisateur du 22 novembre 2026 : titre « Notre chemin vers Noël » s
 Livret : 52 pages A6, 14 faces sur 7 feuilles A4 recto verso, avec une demi-feuille inutilisée sur la dernière A4. Trois espaces personnels de dessin complètent la pagination. Sommaire hebdomadaire : pages 4, 16, 28 et 40. Planche : 26 vignettes, 13 sur chaque face ; variante recto seul conservée. Ateliers, gabarits, quatre QR d’écoutes initiaux, coloriages noir et blanc et jeu de l’étoile conservés.
 
 Sauvegardes : nouvelle structure compact-v15 et clé avent-2026-livret-compact-v15. Les anciennes éditions compact-v12 restent intactes et exportables séparément ; elles ne sont pas appliquées par numéro de page à la nouvelle pagination. Archive complète de v0.14 dans Anciens fichiers/v0.14-261121. Les nouvelles écoutes de novembre sont des recherches proposées, pas des enregistrements vérifiés. Les playlists YouTube externes restent incomplètes et leur mise à jour doit suivre la nouvelle période, sans présenter leurs anciens titres comme déjà modifiés. Durée : non mesurée.
+
+Version0.18 : les deux titres demandés sont « En chemin vers Noël » (page2) et « Les playlistes audios » (page3). Sauvegarde locale par navigateur ; le bouton Modifier ne publie pas les changements sur GitHub.
