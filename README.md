@@ -1,4 +1,10 @@
-# Mon calendrier de l’Avent 2026 — v0.19-261122
+# Mon calendrier de l’Avent 2026 — v0.20-261122
+
+## Réorganisation de la page3 — v0.20-261122
+
+Origine : demande utilisateur et capture du 22 novembre 2026. Sur « Les playlistes audios », bloc encadré « Les 4 QR codes » ajouté au-dessus de la grille. Texte : « Scanne le QR code de la rubrique que tu veux écouter, puis choisis la date du jour dans la liste correspondante. » L’ancienne explication déplacée sous la grille est retirée ; les quatre QR restent dans les quatre cartes. Grille et encadré centrés, cartes et titres centrés ; deux variantes visuelles concernées. Archivev0.19 créée. Version compact-v15 et les sauvegardes de contenu sont préservées.
+Validation page3-centering.cjs : classique et enfantine, quatre cartes et QR, ordre de lecture encadré avant grille, alignement central et absence de débordement ; PDF impression produit, quatre QR imprimés. Captures v020-page3-classic/child. Durée non mesurée.
+
 
 ## Page d’accueil alignée sur la maquette fournie — v0.19-261122
 
