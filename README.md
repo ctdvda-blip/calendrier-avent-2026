@@ -124,3 +124,7 @@ Texte et libellé de section synchronisés sur la capture utilisateur ; justific
 ## Page 2 : police du texte du jeu — v0.28-261122
 
 Le premier paragraphe « Comme les bergers… » reprend la police et la taille du texte de bienvenue.
+
+## Page 2 : espace entre paragraphes — v0.29-261122
+
+Marge entre paragraphes portée à 6 px ; espacement des listes conservé.
