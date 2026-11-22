@@ -160,3 +160,7 @@ Les doubles pages hebdomadaires des semaines 2 à 4 portent un titre commun rép
 ## Doubles pages hebdomadaires : retrait de l’item intention — v0.37-261122
 
 La ligne « Intention · Pardon · Merci » a été retirée des cartes hebdomadaires.
+
+
+## Prières et participations quotidiennes — v0.38-261122
+Chaque journée comprend une « Prière du jour » liée au texte biblique, une participation familiale parmi sept idées qui tournent selon le jour de la semaine, et la rubrique « Notre crèche ». Les propositions d’allumage des bougies restent dans la rubrique crèche.
