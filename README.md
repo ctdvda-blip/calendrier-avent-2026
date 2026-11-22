@@ -152,3 +152,7 @@ Le symbole de la consigne est le même SVG noir et blanc à cinq branches et deu
 ## Pages 4–5 : titre des prières et ateliers — v0.35-261122
 
 Le titre commun de la première double page hebdomadaire se lit sur les deux pages : « Prières et ateliers » puis « créatifs de la semaine ».
+
+## Titres des semaines 2–4 et correction du titre page 3 — v0.36-261122
+
+Les doubles pages hebdomadaires des semaines 2 à 4 portent un titre commun réparti entre les pages. Page 3 : « Les playlists audios ».
