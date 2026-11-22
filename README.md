@@ -108,3 +108,7 @@ Validation v0.22 : nouveau libellé Chants de Noël sur la page3 et dans l’ent
 Contrôle v0.23 : Contes audios sur la carte et l’entête des26 entrées,4QR actifs.
 
 Validation locale v0.24 : consigne retirée, encadré 4QR conservé, les quatre QR demeurent imprimables.
+
+## Page 3 : recentrage du cadre et des QR — v0.25-261122
+
+Le titre reste en haut et le cadre des quatre QR est centré verticalement dans l’espace restant. Les QR gardent leur taille. Origine : demande du 22 novembre 2026.
