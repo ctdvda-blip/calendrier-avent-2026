@@ -1,4 +1,8 @@
-# Mon calendrier de l’Avent 2026 — v0.15-261122
+# Mon calendrier de l’Avent 2026 — v0.16-261122
+
+## Introduction de la page 2 — v0.16-261122
+
+Origine : demande utilisateur du 22 novembre 2026. Le paragraphe introductif est remplacé par : « Durant tout le temps de l’Avent, chaque jour te sera proposé une histoire de la Bible, un conte audio, un extrait de musique classique, un chant de Noël et un temps de prière. » Majuscules et apostrophes typographiques normalisées. Titre sur une ligne et absence d’encadré conservés. Période 29 novembre–24 décembre, 52 pages et 26 vignettes inchangées. Même structure compact-v15 et même clé de sauvegarde ; aucune édition personnelle écrasée. Archive préalable Anciens fichiers/v0.15-261122. Durée non mesurée.
 
 [Ouvrir l’application](https://ctdvda-blip.github.io/calendrier-avent-2026/)
 
