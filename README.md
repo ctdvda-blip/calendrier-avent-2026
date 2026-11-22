@@ -1,4 +1,9 @@
-# Mon calendrier de l’Avent 2026 — v0.23-261122
+# Mon calendrier de l’Avent 2026 — v0.24-261122
+
+## Page3 : suppression de la consigne avant les QR — v0.24-261122
+
+Origine : demande utilisateur du 22 novembre 2026, retirer « Choisis une rubrique ». Le paragraphe est retiré. Encadré « Les 4 QR codes », texte explicatif et quatre cartes QR restent en place. Titres et libellés Chants/Musique/Contes sont préservés. Archivev0.23 créée. Durée non mesurée.
+
 
 ## Libellé de la rubrique Contes — v0.23-261122
 
@@ -101,3 +106,5 @@ Validation locale v0.21 : libellé musique page3 et menu de sélection,26 entré
 Validation v0.22 : nouveau libellé Chants de Noël sur la page3 et dans l’entête des26 entrées, QR fonctionnels.
 
 Contrôle v0.23 : Contes audios sur la carte et l’entête des26 entrées,4QR actifs.
+
+Validation locale v0.24 : consigne retirée, encadré 4QR conservé, les quatre QR demeurent imprimables.
