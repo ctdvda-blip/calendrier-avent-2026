@@ -1,4 +1,9 @@
-# Mon calendrier de l’Avent 2026 — v0.18-261122
+# Mon calendrier de l’Avent 2026 — v0.19-261122
+
+## Page d’accueil alignée sur la maquette fournie — v0.19-261122
+
+Origine : image utilisateur jointe et demande du 22 novembre 2026. Page2 : titre « En chemin vers Noël », introduction et organisation, listes à tirets « Au début de chaque semaine » et « Puis une page par jour », renvoi aux playlists page3 et table des matières. L’image confirme l’absence d’encadré autour du jeu ; le jeu reste, conformément aux demandes antérieures, avec son titre, sa description et l’invitation à chercher l’étoile cachée. Niveaux d’âge et note sur les bougies LED retirés de cette page selon la maquette. Les playlists et la liste d’âge sont conservées dans leurs rubriques/pages respectives. Titre sur une ligne, aucun encadré vert, mêmes espacements compacts. Texte d’introduction et listes par sources/introduction.html. Les deux nouveaux titres page2/3 issus de v0.18 restent en vigueur. Archive préalable v0.18. Durée non mesurée.
+
 
 ## Titre de la page 2 — v0.18-261122
 
@@ -65,3 +70,5 @@ Livret : 52 pages A6, 14 faces sur 7 feuilles A4 recto verso, avec une demi-feui
 Sauvegardes : nouvelle structure compact-v15 et clé avent-2026-livret-compact-v15. Les anciennes éditions compact-v12 restent intactes et exportables séparément ; elles ne sont pas appliquées par numéro de page à la nouvelle pagination. Archive complète de v0.14 dans Anciens fichiers/v0.14-261121. Les nouvelles écoutes de novembre sont des recherches proposées, pas des enregistrements vérifiés. Les playlists YouTube externes restent incomplètes et leur mise à jour doit suivre la nouvelle période, sans présenter leurs anciens titres comme déjà modifiés. Durée : non mesurée.
 
 Version0.18 : les deux titres demandés sont « En chemin vers Noël » (page2) et « Les playlistes audios » (page3). Sauvegarde locale par navigateur ; le bouton Modifier ne publie pas les changements sur GitHub.
+
+Validation intermédiaire v0.19 : page2-maquette.cjs et captures classique/enfantine inspectés, aucun débordement. Publication en cours.
