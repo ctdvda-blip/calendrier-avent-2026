@@ -136,3 +136,7 @@ Les tirets des deux listes sont remplacés par des pictogrammes (prière, crèch
 ## Page 2 : police des paragraphes du jeu — v0.31-261122
 
 Les textes « Comme les bergers… » et « Une petite étoile filante… » utilisent la police et la taille du texte d’accueil.
+
+## Page 2 : taille du dernier paragraphe du jeu — v0.32-261122
+
+La taille historique de 8 px a été remplacée par l’héritage explicite de la typographie du texte de bienvenue.
