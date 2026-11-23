@@ -310,7 +310,7 @@ body[data-presentation="child"] .layout-bulles .scripture-verse,body[data-presen
 .treasures-writing-line{height:36px;border-bottom:1px dotted #778579}
 </style></head>
 <body>
-<header class="top"><div class="brand"><svg viewBox="0 0 50 60" aria-hidden="true"><path d="M25 2 30 17 46 18 34 28 38 44 25 35 12 44 16 28 4 18 20 17Z" fill="none" stroke="#ab8146" stroke-width="1.5"/><path d="M11 54Q25 40 39 54" fill="none" stroke="#234f43" stroke-width="2"/></svg><div><div class="eyebrow">Mon petit chemin vers Noël</div><h1>Le calendrier de l’Avent</h1><span class="version">2026 · v0.72-261123</span></div></div><div class="top-actions"><button id="help-open">Mode d’emploi</button><button id="export">Exporter le HTML</button><button class="primary" id="print">Imprimer le livret</button></div></header>
+<header class="top"><div class="brand"><svg viewBox="0 0 50 60" aria-hidden="true"><path d="M25 2 30 17 46 18 34 28 38 44 25 35 12 44 16 28 4 18 20 17Z" fill="none" stroke="#ab8146" stroke-width="1.5"/><path d="M11 54Q25 40 39 54" fill="none" stroke="#234f43" stroke-width="2"/></svg><div><div class="eyebrow">Mon petit chemin vers Noël</div><h1>Le calendrier de l’Avent</h1><span class="version">2026 · v0.73-261123</span></div></div><div class="top-actions"><button id="help-open">Mode d’emploi</button><button id="export">Exporter le HTML</button><button class="primary" id="print">Imprimer le livret</button></div></header>
 <div class="document-navigation"><nav class="document-tabs" role="tablist" aria-label="Choisir le document à prévisualiser">
 <button id="tab-booklet" role="tab" data-tab="booklet" aria-selected="true" aria-controls="panel-booklet">Livret</button>
 <button id="tab-condensed" role="tab" data-tab="condensed" aria-selected="false" aria-controls="panel-condensed" tabindex="-1">Planche A4</button>
@@ -1527,7 +1527,7 @@ const VIGNETTES = [{"date":"2026-11-29","dateBadge":"29 nov.","asset":"day-01","
 const PUBLIC_URL='https://ctdvda-blip.github.io/calendrier-avent-2026/';
 const COMPACT_LAYOUT='compact-v17';
 const WEEK_RANGES=[[1,5],[6,12],[13,19],[20,24]];
-const DAY_COLORS=[['#fbe8e8','#a72b3b'],['#fff0df','#b45f12'],['#fff7d8','#8a6800'],['#eaf5e7','#4c8a50'],['#e7f2e8','#1f6440'],['#eaf4fb','#3578a8'],['#e8eef8','#294c82']];
+const DAY_COLORS=[['#fffdeB','#887000'],['#fbe9ea','#a32235'],['#eaf4fc','#17628e'],['#fceaf2','#9c3266'],['#eaf6e9','#2e713b'],['#f0eafa','#674091'],['#fff0df','#a34d08']];
 const MUSIC_LABELS=['Bach · Prélude en do, BWV 846','Bach · Jésus, que ma joie demeure, BWV 147','Corelli · Concerto de Noël, Pastorale','Mozart · Ah ! vous dirai-je, maman','Mozart · Petite musique de nuit, Romance','Beethoven · Lettre à Élise','Schubert · Moment musical n° 3','Schubert · Ave Maria, violon et piano','Mendelssohn · Romance sans paroles op. 19 n° 1','Chopin · Nocturne op. 9 n° 2','Schumann · Rêverie','Brahms · Berceuse op. 49 n° 4','Tchaïkovski · Danse de la Fée Dragée','Tchaïkovski · Valse des flocons','Saint-Saëns · Le Cygne','Grieg · Au matin','Fauré · Berceuse de Dolly','Debussy · The Snow is Dancing','Debussy · Clair de lune','Ravel · Le Jardin féerique','Stravinsky · L’Oiseau de feu, Berceuse','Prokofiev · Troïka','Britten · Interlude pour harpe','Adam · Cantique de Noël instrumental','Haendel · Le Messie, Pifa'];
 const AUDIO_CATEGORIES=[{id:'bible',label:'Histoires bibliques'},{id:'musique',label:'Extraits de musique classique'},{id:'chants',label:'Chants de Noël'},{id:'contes',label:'Contes audios'}];
 const ADVENT_DAYS=[29,30,...Array.from({length:24},(_,i)=>i+1)];
