@@ -303,9 +303,14 @@ body[data-presentation="child"] .layout-bulles .scripture-verse,body[data-presen
 .playlist-page .playlist-toc .contents{font-size:10px;line-height:1.32}
 .playlist-page .playlist-sources{max-width:100%;padding:2px 4px;font-size:8.3px;line-height:1.13}
 .playlist-page .playlist-sources>span{font-size:7.8px;line-height:1.12;margin-top:1px}
+
+/* v0.71 : quatre lignes pointillées pour écrire dans les Trésors de la semaine. */
+.compact-notes .body{min-height:100%}
+.treasures-writing-lines{margin-top:16px;width:100%}
+.treasures-writing-line{height:36px;border-bottom:1px dotted #778579}
 </style></head>
 <body>
-<header class="top"><div class="brand"><svg viewBox="0 0 50 60" aria-hidden="true"><path d="M25 2 30 17 46 18 34 28 38 44 25 35 12 44 16 28 4 18 20 17Z" fill="none" stroke="#ab8146" stroke-width="1.5"/><path d="M11 54Q25 40 39 54" fill="none" stroke="#234f43" stroke-width="2"/></svg><div><div class="eyebrow">Mon petit chemin vers Noël</div><h1>Le calendrier de l’Avent</h1><span class="version">2026 · v0.70-261123</span></div></div><div class="top-actions"><button id="help-open">Mode d’emploi</button><button id="export">Exporter le HTML</button><button class="primary" id="print">Imprimer le livret</button></div></header>
+<header class="top"><div class="brand"><svg viewBox="0 0 50 60" aria-hidden="true"><path d="M25 2 30 17 46 18 34 28 38 44 25 35 12 44 16 28 4 18 20 17Z" fill="none" stroke="#ab8146" stroke-width="1.5"/><path d="M11 54Q25 40 39 54" fill="none" stroke="#234f43" stroke-width="2"/></svg><div><div class="eyebrow">Mon petit chemin vers Noël</div><h1>Le calendrier de l’Avent</h1><span class="version">2026 · v0.71-261123</span></div></div><div class="top-actions"><button id="help-open">Mode d’emploi</button><button id="export">Exporter le HTML</button><button class="primary" id="print">Imprimer le livret</button></div></header>
 <div class="document-navigation"><nav class="document-tabs" role="tablist" aria-label="Choisir le document à prévisualiser">
 <button id="tab-booklet" role="tab" data-tab="booklet" aria-selected="true" aria-controls="panel-booklet">Livret</button>
 <button id="tab-condensed" role="tab" data-tab="condensed" aria-selected="false" aria-controls="panel-condensed" tabindex="-1">Planche A4</button>
@@ -1629,10 +1634,10 @@ function buildCompactBook(){
   if(wi===0) addOpeningDays();
   days.forEach(day=>addDailyPage(day,wi+1));
   if(wi<3){
-   add('Trésors de la semaine','<h2>Trésors de la semaine</h2>','compact-notes',{week:wi+1,font:12});
+    add('Trésors de la semaine','<h2>Trésors de la semaine</h2><div class="treasures-writing-lines" aria-label="Quatre lignes pointillées pour écrire">'+Array.from({length:4},()=>'<div class="treasures-writing-line"></div>').join('')+'</div>','compact-notes',{week:wi+1,font:12});
   }
  });
- ['Mon étoile du berger','Ma joie de Noël','Mes souvenirs de l’Avent'].forEach(title=>add(title,'<h2>Trésors de la semaine</h2>','compact-notes',{font:12}));
+  ['Mon étoile du berger','Ma joie de Noël','Mes souvenirs de l’Avent'].forEach(title=>add(title,'<h2>Trésors de la semaine</h2><div class="treasures-writing-lines" aria-label="Quatre lignes pointillées pour écrire">'+Array.from({length:4},()=>'<div class="treasures-writing-line"></div>').join('')+'</div>','compact-notes',{font:12}));
  add('Quatrième de couverture',`<div class="cover"><div class="kicker">La joie de la Nativité</div><h2>Joyeux Noël !</h2>${art('back','La Nativité à colorier')}<p>Jésus est né.<br>Que sa paix grandisse dans notre maison.</p><p class="note">Mon carnet de l’Avent 2026<br>${VERSION}</p></div>`,'cover-page');
  if(pages.length!==44)throw Error('Le carnet compact doit comporter 44 pages.');
 }
