@@ -326,7 +326,7 @@ body[data-presentation="child"] .layout-bulles .scripture-verse,body[data-presen
 .playlist-page .playlist-sources p{margin:0 0 3px}
 </style></head>
 <body>
-<header class="top"><div class="brand"><svg viewBox="0 0 50 60" aria-hidden="true"><path d="M25 2 30 17 46 18 34 28 38 44 25 35 12 44 16 28 4 18 20 17Z" fill="none" stroke="#ab8146" stroke-width="1.5"/><path d="M11 54Q25 40 39 54" fill="none" stroke="#234f43" stroke-width="2"/></svg><div><div class="eyebrow">Mon petit chemin vers Noël</div><h1>Le calendrier de l’Avent</h1><span class="version">2026 · v0.88-261123</span></div></div><div class="top-actions"><button id="help-open">Mode d’emploi</button><button id="export">Exporter le HTML</button><button class="primary" id="print">Imprimer le livret</button></div></header>
+<header class="top"><div class="brand"><svg viewBox="0 0 50 60" aria-hidden="true"><path d="M25 2 30 17 46 18 34 28 38 44 25 35 12 44 16 28 4 18 20 17Z" fill="none" stroke="#ab8146" stroke-width="1.5"/><path d="M11 54Q25 40 39 54" fill="none" stroke="#234f43" stroke-width="2"/></svg><div><div class="eyebrow">Mon petit chemin vers Noël</div><h1>Le calendrier de l’Avent</h1><span class="version">2026 · v0.89-261125</span></div></div><div class="top-actions"><button id="help-open">Mode d’emploi</button><button id="export">Exporter le HTML</button><button class="primary" id="print">Imprimer le livret</button></div></header>
 <div class="document-navigation"><nav class="document-tabs" role="tablist" aria-label="Choisir le document à prévisualiser">
 <button id="tab-booklet" role="tab" data-tab="booklet" aria-selected="true" aria-controls="panel-booklet">Livret</button>
 <button id="tab-condensed" role="tab" data-tab="condensed" aria-selected="false" aria-controls="panel-condensed" tabindex="-1">Planche A4</button>
@@ -3972,7 +3972,7 @@ function creativePage(el,p){
 }
 
 'use strict';
-const VERSION = 'v0.88-261123';
+const VERSION = 'v0.89-261125';
 const STORAGE_KEY = 'avent-2026-livret-compact-v18:'+location.pathname;
 const LEGACY_STORAGE_KEY = 'avent-2026-livret-compact-v17:'+location.pathname;
 const $ = s => document.querySelector(s);
@@ -4043,7 +4043,7 @@ function save(){try{const changes={};pages.forEach((p,i)=>{if(JSON.stringify(p)!
 function navigate(n){if(editing){status('Validez ou annulez les modifications avant de changer de page.');return;}current=Math.max(1,Math.min(PAGE_COUNT,n));render();}
 function sanitize(html){const root=document.createElement('div');root.innerHTML=html;root.querySelectorAll('script,style,iframe,object,embed,form,input,button,link,meta').forEach(e=>e.remove());root.querySelectorAll('*').forEach(e=>{for(const a of [...e.attributes]){if(/^on/i.test(a.name)||a.name==='contenteditable'||a.name==='srcdoc')e.removeAttribute(a.name);if(['href','src'].includes(a.name)&&!(/^(https?:|data:image\/(png|jpeg|webp|gif);base64,|#)/i.test(a.value)))e.removeAttribute(a.name);}if(e.tagName==='A'){e.target='_blank';e.rel='noopener noreferrer';}});return root.innerHTML;}
 function collect(){document.querySelectorAll('#stage .page').forEach(el=>{const body=el.querySelector('.body').cloneNode(true);body.querySelectorAll('.qr-image').forEach(img=>img.remove());pages[Number(el.dataset.number)-1].html=sanitize(body.innerHTML);});}
-function overflowPages(root='#stage'){return [...document.querySelectorAll(root+' .page')].filter(el=>{const b=el.querySelector('.body');return b.scrollHeight>b.clientHeight+1||b.scrollWidth>b.clientWidth+1;});}
+function overflowPages(root='#stage'){return [...document.querySelectorAll(root+' .page[data-number]')].filter(el=>{const b=el.querySelector('.body');return b.scrollHeight>b.clientHeight+1||b.scrollWidth>b.clientWidth+1;});}
 async function readyImages(root){await Promise.all([...root.querySelectorAll('img,image')].map(el=>{const img=typeof el.decode==='function'?el:new Image();if(img!==el)img.src=el.getAttribute('href');return img.decode().catch(()=>{});}));await document.fonts.ready;}
 async function reflow(){
 if(editing)collect();updateAudioQR($('#stage'));await readyImages($('#stage'));let failed=[];
@@ -4069,7 +4069,20 @@ $('#image-page').onchange=()=>{};
 $('#replace-image').onchange=async e=>{const f=e.target.files[0];if(!f)return;if(!['image/png','image/jpeg','image/webp','image/gif'].includes(f.type)||f.size>8*1024*1024){status('Choisissez une image PNG, JPEG, WEBP ou GIF de moins de 8 Mo.');e.target.value='';return;}const n=Number($('#image-page').value);const el=$(`#stage .page[data-number="${n}"] .body`);if(!el)return;const data=await new Promise((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(r.result);r.onerror=reject;r.readAsDataURL(f);});let img=el.querySelector('.art');if(!img){img=document.createElement('img');img.className='art';img.alt='Illustration ajoutée';el.appendChild(img);}img.src=data;status('Illustration remplacée. Remettez en page puis validez.');e.target.value='';};
 const nativeRender=render;render=function(){nativeRender();$('#image-page').innerHTML=visibleNumbers().map(n=>`<option value="${n}">Page ${n}</option>`).join('');};
 function fillPrint(){const root=$('#print-root');root.replaceChildren();imposition().forEach(info=>root.appendChild(createSheet(info)));return root;}
-$('#print').onclick=async()=>{if(editing)return;const root=fillPrint();root.style.display='block';root.style.position='absolute';root.style.left='-100000px';await readyImages(root);const failed=overflowPages('#print-root');root.removeAttribute('style');if(failed.length){status('Impression suspendue : le contenu dépasse en page '+failed.map(e=>e.dataset.number).join(', ')+'. Ouvrez ces pages et utilisez Remettre en page.');return;}window.print();};
+$('#print').onclick=async()=>{
+ if(editing)return;
+ const root=fillPrint();
+ let failed;
+ Object.assign(root.style,{display:'block',position:'absolute',left:'-100000px'});
+ try{
+  await readyImages(root);
+  failed=overflowPages('#print-root');
+ }finally{
+  root.removeAttribute('style');
+ }
+ if(failed.length){status('Impression suspendue : le contenu dépasse en page '+failed.map(e=>e.dataset.number).join(', ')+'. Ouvrez ces pages et utilisez Remettre en page.');return;}
+ window.print();
+};
 window.addEventListener('beforeprint',()=>{if(window.supplements&&supplements.active!=='booklet')return;if(editing)collect();fillPrint();});
 $('#export').onclick=()=>{const clone=document.documentElement.cloneNode(true);clone.querySelectorAll('#templates-open,#condensed-download,#listen-open,#listening-dialog,[data-legacy-export]').forEach(el=>el.remove());clone.querySelector('#book-data').textContent=JSON.stringify({version:VERSION,layout:COMPACT_LAYOUT,pages,presentation:document.body.dataset.presentation,condensedFormat:$('#condensed-format').value}).replace(/</g,'\\u003c');clone.querySelectorAll('.preview-holder,#workshop-cards').forEach(el=>el.replaceChildren());clone.querySelector('#stage').replaceChildren();clone.querySelector('#print-root').replaceChildren();clone.querySelector('#chapters').replaceChildren();clone.querySelector('#help').hidden=true;clone.querySelector('#editor-panel').hidden=true;const blob=new Blob(['<!doctype html>\n'+clone.outerHTML],{type:'text/html;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='Calendrier-Avent-2026-modifie.html';a.click();setTimeout(()=>URL.revokeObjectURL(url),10000);status('Copie HTML exportée avec les modifications et les illustrations.');};
 window.addEventListener('beforeunload',e=>{if(editing){e.preventDefault();e.returnValue='';}});
