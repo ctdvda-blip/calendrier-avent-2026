@@ -1,4 +1,8 @@
-# Mon calendrier de l’Avent 2026 — v0.133-261127
+# Mon calendrier de l’Avent 2026 — v0.134-261128
+
+## v0.134-261128 — Ordre des films
+
+La rubrique « Films de Noël en famille » est ordonnée en trois rangées : Scrooge et *Les Cinq Légendes* ; *L’Étoile de Noël* et *Le Roi des rois* ; *Marie de Nazareth* et Casse-Noisette.
 
 
 ## v0.133-261127 — Le Drôle de Noël de Scrooge

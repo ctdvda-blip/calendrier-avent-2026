@@ -476,7 +476,7 @@ body[data-presentation="child"] .film-card h3{font-family:'Trebuchet MS',sans-se
 @media(max-width:650px){.printing-pdf-preview{height:70vh;min-height:420px}}
 </style></head>
 <body>
-<header class="top"><div class="brand"><svg viewBox="0 0 50 60" aria-hidden="true"><path d="M25 2 30 17 46 18 34 28 38 44 25 35 12 44 16 28 4 18 20 17Z" fill="none" stroke="#ab8146" stroke-width="1.5"/><path d="M11 54Q25 40 39 54" fill="none" stroke="#234f43" stroke-width="2"/></svg><div><div class="eyebrow">Mon petit chemin vers Noël</div><h1>Le calendrier de l’Avent</h1><span class="version">2026 · v0.133-261127</span></div></div><div class="top-actions"><button id="help-open">Mode d’emploi</button><button id="export">Exporter le HTML</button><button class="primary" id="print">Imprimer le livret</button><button id="print-reading">PDF dans l’ordre des pages</button></div></header>
+<header class="top"><div class="brand"><svg viewBox="0 0 50 60" aria-hidden="true"><path d="M25 2 30 17 46 18 34 28 38 44 25 35 12 44 16 28 4 18 20 17Z" fill="none" stroke="#ab8146" stroke-width="1.5"/><path d="M11 54Q25 40 39 54" fill="none" stroke="#234f43" stroke-width="2"/></svg><div><div class="eyebrow">Mon petit chemin vers Noël</div><h1>Le calendrier de l’Avent</h1><span class="version">2026 · v0.134-261128</span></div></div><div class="top-actions"><button id="help-open">Mode d’emploi</button><button id="export">Exporter le HTML</button><button class="primary" id="print">Imprimer le livret</button><button id="print-reading">PDF dans l’ordre des pages</button></div></header>
 <div class="document-navigation"><nav class="document-tabs" role="tablist" aria-label="Choisir le document à prévisualiser">
 <button id="tab-booklet" role="tab" data-tab="booklet" aria-selected="true" aria-controls="panel-booklet">Livret</button>
 <button id="tab-condensed" role="tab" data-tab="condensed" aria-selected="false" aria-controls="panel-condensed" tabindex="-1">À colorier</button>
@@ -2035,6 +2035,7 @@ const FILM_RECOMMENDATIONS=[
  {title:'Le Drôle de Noël de Scrooge',asset:'film-scrooge-disney-2009',detail:'Animation · 1 h 36',note:'Les trois fantômes de Noël entraînent Scrooge dans un voyage qui l’invite à changer.',trailer:'https://www.youtube.com/watch?v=PcNLFXSdO5A',trailerLabel:'Bande-annonce officielle · Disney France (YouTube)',platforms:'Disney+ (abonnement) · VOD : Apple TV, Amazon Video, Pathé Home, VIVA et Premiere Max · DVD Fnac.',availabilityUrl:'https://www.justwatch.com/fr/film/le-drole-de-noel-de-scrooge',additionalAvailabilityUrl:'https://www.fnac.com/a2812998/Le-Drole-de-Noel-de-Scrooge-DVD-Zone-2',additionalAvailabilityLabel:'DVD · Fnac (vendeurs partenaires)',coverSource:'https://www.fnac.com/a2812998/Le-Drole-de-Noel-de-Scrooge-DVD-Zone-2'},
  {title:'Le Roi des rois',asset:'film-roi-des-rois',detail:'Animation · 1 h 43 · conseillé dès 6 ans',note:'Charles Dickens raconte à son fils Walter la vie de Jésus, vue à travers l’imagination d’un enfant.',trailer:'https://www.youtube.com/watch?v=gI-P1iTgLOY',trailerLabel:'Bande-annonce officielle VF · SAJE Distribution (YouTube)',platforms:'DVD SAJE · Canal+ (abonnement) · VOD : Apple TV, Canal VOD, Amazon Video et autres.',availabilityUrl:'https://www.justwatch.com/fr/film/the-king-of-kings',additionalAvailabilityUrl:'https://boutique.sajedistribution.com/dvd-chretien/le-roi-des-rois-dvd/',additionalAvailabilityLabel:'DVD · SAJE Distribution',coverSource:'https://boutiquedesfamilles.fr/dvd/18642-le-roi-des-rois-dvd-3512394013896.html'}
 ];
+FILM_RECOMMENDATIONS.sort((a,b)=>['Le Drôle de Noël de Scrooge','Les Cinq Légendes','L’Étoile de Noël','Le Roi des rois','Marie de Nazareth','Casse-Noisette · Opéra de Paris'].indexOf(a.title)-['Le Drôle de Noël de Scrooge','Les Cinq Légendes','L’Étoile de Noël','Le Roi des rois','Marie de Nazareth','Casse-Noisette · Opéra de Paris'].indexOf(b.title));
 function filmCover(f){return `<img class="film-cover" src="${ASSETS[f.asset]}" alt="${f.asset==='film-casse-noisette'?'Affiche officielle de la captation 2023 : ':(f.asset==='film-roi-des-rois'||f.asset==='film-scrooge-disney-2009')?'Pochette DVD : ':'Illustration : '}${esc(f.title)}">`;}
 function filmRecommendationPage(){
  const cards=FILM_RECOMMENDATIONS.map(f=>`<article class="film-card">${filmCover(f)}<div><h3>${esc(f.title)}</h3><p class="film-detail">${esc(f.detail)}</p><p>${esc(f.note)}</p>${f.trailer?link(f.trailer,f.trailerLabel,'film-trailer'):''}</div>${f.platforms?`<p class="film-platforms"><b>Disponibilité en France :</b> ${link(f.availabilityUrl,esc(f.platforms),'film-availability')}${f.additionalAvailabilityUrl?`<br>${link(f.additionalAvailabilityUrl,esc(f.additionalAvailabilityLabel),'film-availability')}`:''}</p>`:''}</article>`).join('');
@@ -4381,7 +4382,7 @@ function creativePage(el,p){
 }
 
 'use strict';
-const VERSION = 'v0.133-261127';
+const VERSION = 'v0.134-261128';
 const STORAGE_KEY = 'avent-2026-livret-compact-v20:'+location.pathname;
 const PREVIOUS_STORAGE_KEY = 'avent-2026-livret-compact-v19:'+location.pathname;
 const LEGACY_STORAGE_KEY = 'avent-2026-livret-compact-v18:'+location.pathname;
@@ -4944,8 +4945,3 @@ const listeningQuery=new URLSearchParams(location.search);if(listeningQuery.has(
 window.listening={open:openListening,entries:listeningEntries};
 </script>
 </body></html>
-
-
-
-
-\n
