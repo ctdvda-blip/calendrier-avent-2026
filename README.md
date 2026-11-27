@@ -1,4 +1,8 @@
-# Mon calendrier de l’Avent 2026 — v0.124-261127
+# Mon calendrier de l’Avent 2026 — v0.125-261127
+
+## v0.125-261127 — Playlists et films réunis sur la page 3
+
+Les cinq QR codes sont alignés sur une seule rangée et mesurent environ 2 cm à l’impression. « Films de Noël en famille » et ses cinq fiches se trouvent dessous, sans paragraphe introductif ; la page film séparée est retirée. Le PDF de lecture comporte 43 pages A5 et le PDF d’impression 22 faces A4 pour 11 feuilles recto verso (une position A5 blanche avant la quatrième de couverture). L’édition A5 légère reprend également la page playlists combinée.
 
 ## v0.124-261127 — Sources regroupées à la fin du livret
 
@@ -193,7 +197,7 @@ Le titre commun de la première double page hebdomadaire se lit sur les deux pag
 
 ## Titres des semaines 2–4 et correction du titre page 3 — v0.36-261122
 
-Les doubles pages hebdomadaires des semaines 2 à 4 portent un titre commun réparti entre les pages. Page 3 : « Les playlists audios ».
+Les doubles pages hebdomadaires des semaines 2 à 4 portent un titre commun réparti entre les pages. Page 3 : « Les playlists audios », cinq QR en ligne et « Films de Noël en famille » dessous.
 
 ## Doubles pages hebdomadaires : retrait de l’item intention — v0.37-261122
 
