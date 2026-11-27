@@ -1,4 +1,6 @@
-# Mon calendrier de l’Avent 2026 — v0.24-261122
+# Mon calendrier de l’Avent 2026 — v0.107-261127
+
+L’onglet « À imprimer » regroupe le livret complet (à plier ou dans l’ordre de lecture), le livret à colorier, la planche A4, les fiches d’ateliers et les gabarits. Les boutons d’impression du livret utilisent la présentation active et les modifications validées. Les PDF à colorier suivent la présentation choisie.
 
 ## Page3 : suppression de la consigne avant les QR — v0.24-261122
 
