@@ -1,5 +1,9 @@
-# Mon calendrier de l’Avent 2026 — v0.130-261127
+# Mon calendrier de l’Avent 2026 — v0.131-261127
 
+
+## v0.131-261127 — Playlists sur la page 2 du livret A5 léger
+
+La page d’accueil du livret A5 léger regroupe maintenant l’introduction et les cinq QR des playlists. La page de playlists séparée et les recommandations de films sont retirées de cette édition. Le livret compte 19 pages de lecture ; l’imposition reste sur 10 faces A4 paysage, avec une position blanche avant le dos pour le pliage.
 
 ## v0.130-261127 — Retrait de la ligne de disponibilité du ballet
 
