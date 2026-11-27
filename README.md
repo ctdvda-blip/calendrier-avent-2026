@@ -1,6 +1,6 @@
-# Mon calendrier de l’Avent 2026 — v0.109-261127
+# Mon calendrier de l’Avent 2026 — v0.110-261127
 
-## v0.109-261127 — Les 16 tutoriels du coin des artistes
+## v0.110-261127 — Les 16 tutoriels du coin des artistes
 
 Le QR de la page de présentation ouvre PLTDvlyJV-Xkc. Les huit ateliers ont chacun deux liens, facile et défi, correspondant aux 16 vidéos de la playlist dans le même ordre : photophore, couronne, ange, flocon, boule, étoile, carte, cloche. Les deux PDF du livret sont régénérés avec ces destinations.
 
