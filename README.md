@@ -1,4 +1,10 @@
-# Mon calendrier de l’Avent 2026 — v0.121-261127
+# Mon calendrier de l’Avent 2026 — v0.122-261127
+
+## v0.122-261127 — Bande-annonce et disponibilité de Casse-Noisette
+
+La bande-annonce fournie est désormais liée à la captation de Casse-Noisette chorégraphiée par Rudolf Noureev, enregistrée en 2023 et diffusée au cinéma en 2025. La couverture et les offres HD documentées dans le livret concernent explicitement l’autre édition déjà présentée : l’intégrale 2016 (Paris Opera Play et Blu-ray BelAir Classiques). Aucune disponibilité actuelle en HD de l’intégrale 2023 n’a pu être confirmée ; la page distingue les deux productions.
+
+Sources : [bande-annonce officielle](https://youtu.be/0RqcnILO6dI), [Paris Opera Play, production 2016](https://play.operadeparis.fr/p/iolanta-casse-noisette), [édition Blu-ray BelAir Classiques](https://belairclassiques.com/catalogue/tchaikovski-iolanta-casse-noisette-yoncheva-bullion-renavand-barbeau-altinoglu-tcherniakov-palais-garnier-dvd-blu-ray), [Pathé Live, captation 2023](https://www.pathelive.com/fr/evenements/ballet/casse-noisette/).
 
 ## v0.121-261127 — Disponibilité des films
 
