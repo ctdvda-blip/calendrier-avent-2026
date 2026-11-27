@@ -1,4 +1,8 @@
-# Mon calendrier de l’Avent 2026 — v0.126-261127
+# Mon calendrier de l’Avent 2026 — v0.127-261127
+
+## v0.127-261127 — Trésors de la semaine dans l’A5 léger
+
+Le coin des artistes est resserré pour ajouter « Trésors de la semaine » sur la même page. Trois lignes d’écriture rapprochées sont ajoutées pour chaque semaine. Pour la quatrième semaine, l’espace artistes et trésors occupe la page auparavant réservée aux notes.
 
 ## v0.126-261127 — Tous les supports synchronisés
 
