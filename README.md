@@ -1,4 +1,8 @@
-# Mon calendrier de l’Avent 2026 — v0.125-261127
+# Mon calendrier de l’Avent 2026 — v0.126-261127
+
+## v0.126-261127 — Tous les supports synchronisés
+
+L’application HTML, le livret complet en ordre de lecture, son PDF A4 recto verso et les deux éditions A5 légères ont été reconstruits ensemble avec la page 3 à jour. Les onglets de coloriage et d’ateliers restent disponibles dans l’application.
 
 ## v0.125-261127 — Playlists et films réunis sur la page 3
 
