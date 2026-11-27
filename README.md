@@ -258,3 +258,4 @@ La page 2 et les rubriques du livret utilisent une même bibliothèque SVG pour 
 ## Doubles pages hebdomadaires — v0.41-261122
 Chaque semaine tient sur deux pages A6 en vis-à-vis, avec les cartes de prière et participation ainsi qu’un atelier sur chaque page. Le livret compte 44 pages A6 et s’imprime sur 6 feuilles A4 recto verso.
 
+\n
