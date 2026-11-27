@@ -1,4 +1,8 @@
-# Mon calendrier de l’Avent 2026 — v0.134-261128
+# Mon calendrier de l’Avent 2026 — v0.135-261128
+
+## v0.135-261128 — Disponibilités des films
+
+Les fiches indiquent les plateformes confirmées en France pour chaque film, avec liens vers les offres. Disponibilités vérifiées le 28 novembre 2026 ; elles peuvent évoluer. Pour Casse-Noisette, seule la bande-annonce est confirmée en ligne, sans accès intégral repéré.
 
 ## v0.134-261128 — Ordre des films
 
