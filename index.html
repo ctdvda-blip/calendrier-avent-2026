@@ -2002,7 +2002,7 @@ const FILM_RECOMMENDATIONS=[
 function filmCover(f){return `<img class="film-cover" src="${ASSETS[f.asset]}" alt="Couverture DVD : ${esc(f.title)}">`;}
 function filmRecommendationPage(){
  const cards=FILM_RECOMMENDATIONS.map(f=>`<article class="film-card">${filmCover(f)}<div><h3>${esc(f.title)}</h3><p class="film-detail">${esc(f.detail)}</p><p>${esc(f.note)}</p>${f.trailer?link(f.trailer,f.trailerLabel,'film-trailer'):''}</div><p class="film-platforms"><b>Disponibilité en France :</b> ${link(f.availabilityUrl,esc(f.platforms),'film-availability')}</p></article>`).join('');
- add('Films de Noël à regarder en famille',`<div class="kicker">Après les playlists · à partager en famille</div><h2>Films de Noël à regarder en famille</h2><p class="film-intro">Quatre idées à découvrir avec un adulte. Disponibilités vérifiées le 27 novembre 2026 ; les catalogues peuvent évoluer.</p><div class="film-grid">${cards}</div>`,'film-page',{font:11.5});
+ add('Films de Noël à regarder en famille',`<div class="kicker">Après les playlists · à partager en famille</div><h2>Films de Noël à regarder en famille</h2><p class="film-intro">Quatre idées à découvrir avec un adulte. Offres signalées en France sur les plateformes consultées le 27 novembre 2026 ; les catalogues peuvent évoluer.</p><div class="film-grid">${cards}</div>`,'film-page',{font:11.5});
 }
 function buildCompactBook(){
  add('Couverture',`<div class="cover"><div class="kicker">En route vers Noël · 2026</div><h2>Mon carnet<br>de l’Avent</h2><p>Une page par jour pour lire,<br>écouter et colorier</p>${art('jesse','L’arbre de Jessé à colorier')}<div class="name">Ce carnet appartient à :</div></div>`,'cover-page');
