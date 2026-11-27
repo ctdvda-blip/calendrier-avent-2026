@@ -1,4 +1,10 @@
-# Mon calendrier de l’Avent 2026 — v0.127-261127
+# Mon calendrier de l’Avent 2026 — v0.128-261127
+
+## v0.128-261127 — Scrooge remplace le Grinch
+
+Le film familial proposé est maintenant *Scrooge : Un (mé)chant de Noël* (2022), avec son illustration dédiée, sa bande-annonce officielle et sa disponibilité Netflix. Le livret A5 léger reprend aussi cette fiche.
+
+Références : [Netflix](https://www.netflix.com/fr/title/81028225), [JustWatch France](https://www.justwatch.com/fr/film/scrooge-a-christmas-carol), [bande-annonce officielle](https://www.youtube.com/watch?v=tZylTiyaWV8). Le film est indiqué dès 6 ans par [AlloCiné](https://www.allocine.fr/film/fichefilm_gen_cfilm=305358.html). L’image est une illustration originale, pas la jaquette officielle d’un DVD.
 
 ## v0.127-261127 — Trésors de la semaine dans l’A5 léger
 
