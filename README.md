@@ -1,4 +1,10 @@
-# Mon calendrier de l’Avent 2026 — v0.118-261127
+# Mon calendrier de l’Avent 2026 — v0.119-261127
+
+## v0.119-261127 — Films de Noël
+
+Le livret complet ajoute quatre recommandations de films avec jaquettes, liens vers les bandes-annonces disponibles, plateformes consultées et références des sources à la fin. La page film suit les playlists ; la page de sources précède la quatrième de couverture. Le livret A5 léger présente les jaquettes et liens sur sa page d’introduction, avec une page de sources ajoutée avant le dos. Il compte 21 pages de lecture et s’imprime sur 12 faces A4 paysage (six feuilles recto verso) ; les pages blanches sont réservées à l’imposition du livret.
+
+*L’Étoile de Noël* et *Le Grinch* disposent de bandes-annonces YouTube directes. Pour *Marie de Nazareth*, aucune vidéo YouTube fiable n’a été confirmée ; le lien ouvre une recherche. L’édition DVD retrouvée de *Casse-Noisette* est la production contemporaine de l’Opéra de Paris (2016), à distinguer de la version Noureev.
 
 ## v0.118-261127 — Introduction et playlists dans le livret A5 léger
 
