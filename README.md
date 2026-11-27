@@ -1,10 +1,12 @@
-# Mon calendrier de l’Avent 2026 — v0.111-261127
+# Mon calendrier de l’Avent 2026 — v0.112-261127
 
 ## v0.110-261127 — Les 16 tutoriels du coin des artistes
 
 Le QR de la page de présentation ouvre PLTDvlyJV-Xkc. Les huit ateliers ont chacun deux liens, facile et défi, correspondant aux 16 vidéos de la playlist dans le même ordre : photophore, couronne, ange, flocon, boule, étoile, carte, cloche. Les deux PDF du livret sont régénérés avec ces destinations.
 
 L’onglet « À imprimer » regroupe le livret complet (à plier ou dans l’ordre de lecture), le livret à colorier, la planche A4, les fiches d’ateliers et les gabarits. Les boutons d’impression du livret utilisent la présentation active et les modifications validées. Les PDF à colorier suivent la présentation choisie.
+
+Le « Livret A5 léger » est imposé en 10 faces A4 paysage (5 feuilles recto verso) : couverture, quatre cahiers hebdomadaires et dos de couverture. Chaque page A5 regroupe jusqu’à deux jours avec prière, geste, consigne de crèche et illustration. Imprimer à 100 %, recto verso, retourner sur le bord court, puis emboîter les feuilles hebdomadaires dans la couverture.
 
 ## Page3 : suppression de la consigne avant les QR — v0.24-261122
 
