@@ -1,4 +1,8 @@
-# Mon calendrier de l’Avent 2026 — v0.136-261128
+# Mon calendrier de l’Avent 2026 — v0.137-261128
+
+## v0.137-261128 — Une journée par page A5 compacte
+
+L’édition A5 compacte présente désormais une journée par page A5 (une demi-feuille A4). Les prières, gestes et consignes de crèche utilisent Times New Roman 11 pt ; l’illustration occupe tout l’espace restant. Le livret compte 33 pages A5 dans l’ordre de lecture et 18 faces A4 paysage en recto verso.
 
 ## v0.136-261128 — Renommage en A5 compact
 
