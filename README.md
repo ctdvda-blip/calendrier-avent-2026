@@ -1,10 +1,12 @@
-# Mon calendrier de l’Avent 2026 — v0.119-261127
+# Mon calendrier de l’Avent 2026 — v0.121-261127
 
-## v0.119-261127 — Films de Noël
+## v0.121-261127 — Disponibilité des films
 
-Le livret complet ajoute quatre recommandations de films avec jaquettes, liens vers les bandes-annonces disponibles, plateformes consultées et références des sources à la fin. La page film suit les playlists ; la page de sources précède la quatrième de couverture. Le livret A5 léger présente les jaquettes et liens sur sa page d’introduction, avec une page de sources ajoutée avant le dos. Il compte 21 pages de lecture et s’imprime sur 12 faces A4 paysage (six feuilles recto verso) ; les pages blanches sont réservées à l’imposition du livret.
+Les quatre recommandations restent dans le livret, avec leurs jaquettes et les bandes-annonces YouTube confirmées. La page distincte des références de films est retirée ; sous chaque vignette, une mention indique les plateformes disponibles en France, avec un lien vers JustWatch ou Paris Opera Play. Les catalogues peuvent évoluer.
 
-*L’Étoile de Noël* et *Le Grinch* disposent de bandes-annonces YouTube directes. Pour *Marie de Nazareth*, aucune vidéo YouTube fiable n’a été confirmée ; le lien ouvre une recherche. L’édition DVD retrouvée de *Casse-Noisette* est la production contemporaine de l’Opéra de Paris (2016), à distinguer de la version Noureev.
+Le livret A5 léger compte 20 pages en ordre de lecture et s’imprime sur 10 faces A4 paysage (cinq feuilles recto verso), sans pages blanches d’imposition.
+
+*L’Étoile de Noël* et *Le Grinch* disposent de bandes-annonces YouTube directes. Pour *Marie de Nazareth*, aucune vidéo YouTube fiable n’a été confirmée et aucune recherche n’est proposée. L’édition DVD de *Casse-Noisette* est la production contemporaine de l’Opéra de Paris (2016), à distinguer de la version Noureev.
 
 ## v0.118-261127 — Introduction et playlists dans le livret A5 léger
 
