@@ -1,4 +1,11 @@
-# Mon calendrier de l’Avent 2026 — v0.128-261127
+# Mon calendrier de l’Avent 2026 — v0.129-261127
+
+
+## v0.129-261127 — Affiche du Casse-Noisette 2023
+
+L’image du ballet est remplacée par l’affiche officielle Pathé Live de la captation avec Dorothée Gilbert. La fiche et les PDFs distinguent désormais clairement la version filmée en 2023 de la production 2016.
+
+Références : [Pathé Live](https://www.pathelive.com/fr/evenements/ballet/casse-noisette/) · [AlloCiné](https://www.allocine.fr/film/fichefilm_gen_cfilm=316837.html) · [bande-annonce](https://www.youtube.com/watch?v=0RqcnILO6dI).
 
 ## v0.128-261127 — Scrooge remplace le Grinch
 
