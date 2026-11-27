@@ -1,8 +1,8 @@
-# Mon calendrier de l’Avent 2026 — v0.108-261127
+# Mon calendrier de l’Avent 2026 — v0.109-261127
 
-## v0.108-261127 — Playlist du coin des artistes
+## v0.109-261127 — Les 16 tutoriels du coin des artistes
 
-Le QR de la page de présentation ouvre PLTDvlyJV-Xkc. Les liens des tutoriels photophore, couronne et ange ouvrent directement leur vidéo depuis cette playlist.
+Le QR de la page de présentation ouvre PLTDvlyJV-Xkc. Les huit ateliers ont chacun deux liens, facile et défi, correspondant aux 16 vidéos de la playlist dans le même ordre : photophore, couronne, ange, flocon, boule, étoile, carte, cloche. Les deux PDF du livret sont régénérés avec ces destinations.
 
 L’onglet « À imprimer » regroupe le livret complet (à plier ou dans l’ordre de lecture), le livret à colorier, la planche A4, les fiches d’ateliers et les gabarits. Les boutons d’impression du livret utilisent la présentation active et les modifications validées. Les PDF à colorier suivent la présentation choisie.
 
