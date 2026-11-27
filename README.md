@@ -1,11 +1,15 @@
-# Mon calendrier de l’Avent 2026 — v0.129-261127
+# Mon calendrier de l’Avent 2026 — v0.130-261127
+
+
+## v0.130-261127 — Retrait de la ligne de disponibilité du ballet
+
+La mention de disponibilité qui pouvait confondre la captation 2023 avec d’autres éditions est retirée de la fiche Casse-Noisette. La durée, Dorothée Gilbert et le lien vers la bande-annonce restent visibles.
+
 
 
 ## v0.129-261127 — Affiche du Casse-Noisette 2023
 
-L’image du ballet est remplacée par l’affiche officielle Pathé Live de la captation avec Dorothée Gilbert. La fiche et les PDFs distinguent désormais clairement la version filmée en 2023 de la production 2016.
-
-Références : [Pathé Live](https://www.pathelive.com/fr/evenements/ballet/casse-noisette/) · [AlloCiné](https://www.allocine.fr/film/fichefilm_gen_cfilm=316837.html) · [bande-annonce](https://www.youtube.com/watch?v=0RqcnILO6dI).
+L’affiche officielle Pathé Live de la captation filmée en 2023 avec Dorothée Gilbert remplace l’ancienne image.
 
 ## v0.128-261127 — Scrooge remplace le Grinch
 
@@ -37,9 +41,9 @@ Sources : [bande-annonce officielle Paramount Pictures France](https://www.youtu
 
 ## v0.124-261127 — Bande-annonce et disponibilité de Casse-Noisette
 
-La bande-annonce fournie est désormais liée à la captation de Casse-Noisette chorégraphiée par Rudolf Noureev, enregistrée en 2023 et diffusée au cinéma en 2025. La couverture et les offres HD documentées dans le livret concernent explicitement l’autre édition déjà présentée : l’intégrale 2016 (Paris Opera Play et Blu-ray BelAir Classiques). Aucune disponibilité actuelle en HD de l’intégrale 2023 n’a pu être confirmée ; la page distingue les deux productions.
+La bande-annonce et l’affiche présentées correspondent à la captation de Casse-Noisette chorégraphiée par Rudolf Noureev, enregistrée en 2023 avec Dorothée Gilbert dans le rôle de Clara et sortie au cinéma en 2025.
 
-Sources : [bande-annonce officielle](https://youtu.be/0RqcnILO6dI), [Paris Opera Play, production 2016](https://play.operadeparis.fr/p/iolanta-casse-noisette), [édition Blu-ray BelAir Classiques](https://belairclassiques.com/catalogue/tchaikovski-iolanta-casse-noisette-yoncheva-bullion-renavand-barbeau-altinoglu-tcherniakov-palais-garnier-dvd-blu-ray), [Pathé Live, captation 2023](https://www.pathelive.com/fr/evenements/ballet/casse-noisette/).
+Sources : [bande-annonce officielle](https://youtu.be/0RqcnILO6dI) · [affiche Pathé Live](https://www.pathelive.com/fr/evenements/ballet/casse-noisette/).
 
 ## v0.121-261127 — Disponibilité des films
 
@@ -47,7 +51,7 @@ Les quatre recommandations restent dans le livret, avec leurs jaquettes et les b
 
 Le livret A5 léger compte 20 pages en ordre de lecture et s’imprime sur 10 faces A4 paysage (cinq feuilles recto verso), sans pages blanches d’imposition.
 
-*L’Étoile de Noël* et *Le Grinch* disposent de bandes-annonces YouTube directes. Pour *Marie de Nazareth*, aucune vidéo YouTube fiable n’a été confirmée et aucune recherche n’est proposée. L’édition DVD de *Casse-Noisette* est la production contemporaine de l’Opéra de Paris (2016), à distinguer de la version Noureev.
+*L’Étoile de Noël* et *Le Grinch* disposent de bandes-annonces YouTube directes. Pour *Marie de Nazareth*, aucune vidéo YouTube fiable n’a été confirmée et aucune recherche n’est proposée.
 
 ## v0.118-261127 — Introduction et playlists dans le livret A5 léger
 
