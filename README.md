@@ -1,4 +1,9 @@
-# Mon calendrier de l’Avent 2026 — v0.132-261127
+# Mon calendrier de l’Avent 2026 — v0.133-261127
+
+
+## v0.133-261127 — Le Drôle de Noël de Scrooge
+
+La recommandation de *Scrooge : Un (mé)chant de Noël* est remplacée par le film Disney *Le Drôle de Noël de Scrooge* (2009). La fiche comprend sa pochette DVD française, la bande-annonce officielle Disney France et les plateformes disponibles. Les références sont ajoutées à la fin du carnet.
 
 
 ## v0.132-261127 — Le Roi des rois
@@ -252,3 +257,4 @@ La page 2 et les rubriques du livret utilisent une même bibliothèque SVG pour 
 
 ## Doubles pages hebdomadaires — v0.41-261122
 Chaque semaine tient sur deux pages A6 en vis-à-vis, avec les cartes de prière et participation ainsi qu’un atelier sur chaque page. Le livret compte 44 pages A6 et s’imprime sur 6 feuilles A4 recto verso.
+
