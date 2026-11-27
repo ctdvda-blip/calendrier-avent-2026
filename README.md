@@ -1,6 +1,12 @@
-# Mon calendrier de l’Avent 2026 — v0.122-261127
+# Mon calendrier de l’Avent 2026 — v0.123-261127
 
-## v0.122-261127 — Bande-annonce et disponibilité de Casse-Noisette
+## v0.123-261127 — Ajout de Les Cinq Légendes
+
+Ajout de la fiche *Les Cinq Légendes* avec la jaquette DVD française, la bande-annonce VF officielle de Paramount Pictures France et un lien vers les offres légales en France. Les services de location/achat HD et le DVD sont récapitulés sous la jaquette. La page de films accueille cinq fiches et le livret A5 léger a été recomposé pour conserver les cinq couvertures sur sa page d’introduction.
+
+Sources : [bande-annonce officielle Paramount Pictures France](https://www.youtube.com/watch?v=fVlx5D3x_5o), [offres en France sur JustWatch](https://www.justwatch.com/fr/film/les-cinq-legendes), [DVD et jaquette Fnac](https://www.fnac.com/a5835077/Les-Cinq-legendes-DVD-Zone-2).
+
+## v0.123-261127 — Bande-annonce et disponibilité de Casse-Noisette
 
 La bande-annonce fournie est désormais liée à la captation de Casse-Noisette chorégraphiée par Rudolf Noureev, enregistrée en 2023 et diffusée au cinéma en 2025. La couverture et les offres HD documentées dans le livret concernent explicitement l’autre édition déjà présentée : l’intégrale 2016 (Paris Opera Play et Blu-ray BelAir Classiques). Aucune disponibilité actuelle en HD de l’intégrale 2023 n’a pu être confirmée ; la page distingue les deux productions.
 
