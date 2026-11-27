@@ -1,4 +1,9 @@
-# Mon calendrier de l’Avent 2026 — v0.131-261127
+# Mon calendrier de l’Avent 2026 — v0.132-261127
+
+
+## v0.132-261127 — Le Roi des rois
+
+Ajout de la fiche de *Le Roi des rois* dans « Films de Noël en famille » : pochette DVD, bande-annonce officielle VF de SAJE, durée, indication d’âge et disponibilité France. Les sources du film sont ajoutées à la fin du carnet. Le livret A5 léger conserve son format sans rubrique films.
 
 
 ## v0.131-261127 — Playlists sur la page 2 du livret A5 léger
