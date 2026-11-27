@@ -1,4 +1,8 @@
-# Mon calendrier de l’Avent 2026 — v0.135-261128
+# Mon calendrier de l’Avent 2026 — v0.136-261128
+
+## v0.136-261128 — Renommage en A5 compact
+
+L’édition « Livret A5 compact » remplace l’appellation « A5 léger ». Ses deux PDF et leurs aperçus portent le nouveau nom.
 
 ## v0.135-261128 — Disponibilités des films
 
