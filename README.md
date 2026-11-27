@@ -1,4 +1,10 @@
-# Mon calendrier de l’Avent 2026 — v0.112-261127
+# Mon calendrier de l’Avent 2026 — v0.118-261127
+
+## v0.118-261127 — Introduction et playlists dans le livret A5 léger
+
+Le livret léger compte 20 pages A5 dans l’ordre de lecture : couverture, introduction abrégée, page des playlists audios avec cinq QR codes, quatre cahiers hebdomadaires, puis quatrième de couverture. En A4 paysage, il s’imprime sur cinq feuilles recto verso : la couverture et le dos forment l’extérieur ; l’introduction et les playlists forment l’intérieur de la couverture ; chaque semaine reste un cahier séparé. Imprimer à 100 %, retourner sur le bord court et emboîter.
+
+L’introduction reprend l’accueil du livret et le jeu « À la recherche de l’étoile du berger ». Elle s’arrête avant « Voici comment le livret est organisé ».
 
 ## v0.110-261127 — Les 16 tutoriels du coin des artistes
 
